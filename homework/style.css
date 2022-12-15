@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+    
+}
+
+body {
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/motorsport/cars/s/st_evo2_s_01_m.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#formDiv {
+    margin: 30px auto;
+    background-color: rgba(21, 4, 54, 0.426);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+label {
+    display: inline-block;
+    width: 46px;
+    padding:10px;
+}
+
+input {
+    display: inline-block;
+    /* width: calc(100% - 53px); */
+    background-color: rgba(248, 248, 248, 0.315);
+    border-color: rgba(255, 251, 251, 0.8);
+    border-radius: 10px;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button {
+    min-width: 400px;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(131, 120, 120);
+    background-color:#0a0a23;
+    color: rgb(226, 223, 223);
+    margin: 10px;
+    padding:10px;
+}
+
+#resultsTable {
+    margin-top: 25px;
+    background-color: rgba(50, 75, 124, 0.336);
+}
+
+#form {
+    background-color: rgba(42, 47, 56, 0.4);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+td {
+    border-style: solid;
+    border-color: rgba(172, 122, 122, 0.8);
+    color: rgb(233, 223, 223);
+}

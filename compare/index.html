@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework day 3</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- JS AXIOS -->
+    <!-- <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+    ></script> -->
+    <!-- JS for BOOTSTRAP with Popper -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <!-- MY SCRIPT -->
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">F1 Racer API Data</h1>
+      <div>
+        <input
+          class="form-control mb-3 mt-3"
+          placeholder="SEASON"
+          name="season"
+        />
+      </div>
+      <div>
+        <input class="form-control mb-3" placeholder="ROUND" name="round" />
+      </div>
+      <div id="find" class="find">
+        <button class="form-control btn btn-info mb-5">FIND</button>
+      </div>
+      <h2 id="season-round"></h2>
+      <h3 id="season-round"></h3>
+      <div class="table">
+        <table class="table table-striped hidden" id="info">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Position</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">DOB</th>
+              <th scope="col">WINS</th>
+              <th scope="col">Nationality</th>
+              <th scope="col">Constructor</th>
+            </tr>
+          </thead>
+          <tbody id="racer-info"></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+

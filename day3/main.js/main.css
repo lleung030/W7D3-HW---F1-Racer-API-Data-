@@ -1,0 +1,9 @@
+#employee .card{
+    cursor:pointer;
+    transition:1s;
+}
+
+#employees .card:hover{
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+
+}
